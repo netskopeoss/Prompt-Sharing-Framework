@@ -1,0 +1,30 @@
+Field Dictionary:
+
+
+“name” - The unique title or identifier for this specific prompt or AI assistant blueprint.
+
+“author” - The person, team, or organization that created this prompt configuration.
+
+“version” - A specific release number (e.g., "1.0", "2.1.3") to track changes and updates.
+
+“description” - A brief, high-level summary of what the prompt is designed to do or what its purpose is.
+
+“target_model” - The specific AI model this prompt is optimized for (e.g., "Gemini 1.5 Pro", "GPT-4o").
+
+“Instructions or system prompt” - The core "system prompt" or set of rules, behaviors, and constraints that define the AI's persona, role, and task.
+
+“knowledge” - References to external data or source documents that the AI should use as its basis for information (e.g., file names, database, websites, PDFs).
+
+“user_prompt” - The initial ask, example query or template that a user would provide to start the interaction.
+
+“arguements” - A list of placeholder variables or inputs that can be dynamically inserted into the prompt.
+
+  [
+    “student_name” - A placeholder for the name of the student interacting with the AI.
+
+    “students_query" - The actual question or text input provided by the student.
+	
+    “optional_input” - Any additional, non-required information that can be included to add more context.
+
+    “output_example” - A sample of the desired response format to guide the AI's answer (e.g., JSON, a formatted list)
+  ]
