@@ -6,10 +6,17 @@ The purpose of this project is to create a collaborative framework that acts as 
 
 Purpose of framework :
 
-The framework's purpose is to provide access to the complete blueprints for effective AI assistants, which includes sharing the prompts, configurations, and source documents used to build them. It is specifically intended to define how prompts are shared, rather than how the prompts themselves are built.
+The framework aims to provide access to complete blueprints for effective AI assistants. This includes sharing the generative AI model, prompts, configurations, and source documents used to build them. It focuses on defining how prompts can be shared and stored, rather than on how the prompts themselves are created.
+
+
+Rationale:
+
+While tools like Ansible playbooks or Docker Compose files have standardized schemas, no similar schema exists for AI prompts. Establishing a standardized format for AI prompts would make sharing, version-controlling, and collaboration significantly easier.
+The Prompt Sharing Framework focuses on defining a schema for prompts—what a prompt should or could look like when shared.
 
 
 What problem are we trying to solve :
+
 
 The problem this project is trying to solve is that there is currently no similar standard notation available in the open-source community for sharing these AI prompts and blueprints.
 
