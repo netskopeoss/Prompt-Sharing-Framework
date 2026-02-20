@@ -17,11 +17,11 @@ Field Dictionary:
 
 “user_prompt” - The initial ask, example query or template that a user would provide to start the interaction.
 
+
+
 “arguments” - A list of placeholder variables or inputs that can be dynamically inserted into the prompt.
 
   [
-    “student_name” - A placeholder for the name of the student interacting with the AI.
-
     “students_query" - The actual question or text input provided by the student.
 	
     “optional_input” - Any additional, non-required information that can be included to add more context.
